@@ -45,3 +45,43 @@
 هدفنا أن نُعيد لليوم لحظاتٍ من السكينة والذكر، رسالة قصيرة تُوقِظ القلب وتذكّره بخالقه. نسأل الله أن يجعل هذا العمل نافعة وذخراً.
 
 بارك الله في وقتك وكتب لك الأجر 🤍
+
+------
+
+## Technical Setup for Developers
+
+### **Telegram Bot: [@Nabd_AlQuloob_bot](https://t.me/Nabd_AlQuloob_bot)**
+
+### **Installation Steps**
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-repository/Nabd-bot.git
+   cd Nabd-bot
+
+2. **Install Dependencies**:
+   Run the following command to install the required packages:
+
+   ```bash
+   npm install
+   Set Up Environment Variables:
+   Create a .env file in the root of your project and add your .env.examples variables :
+
+3. **Run the Bot**:
+    Start the bot with the following command:
+
+    ```bash
+    npm start
+    now: Bot alive ! ,test commands(start, stop, help, contact)
+    
+4. **Technology Stack**:
+
+- Backend: Node.js
+
+ - Framework: Telegraf.js
+ (for Telegram Bot API)
+
+ - Database: MongoDB (via Mongoose)
+
+ - Scheduler: node-cron
+ (for scheduling tasks etc.)
