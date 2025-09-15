@@ -10,7 +10,7 @@ import logger from "../utils/logger.js";
 const scheduleDailyBroadcast = () => {
 
     // Fasting reminders (Sunday + Wednesday at 8 PM)
-    cron.schedule("45 20 * * 0,1,3", async () => {
+    cron.schedule("45 20 * * 0,3", async () => {
         try {
             const users = await User.find({ isActive: true });
 
